@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: vortexllm
+Version: 0.1.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: matplotlib>=3.4.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.18.0; extra == "dev"
+Dynamic: provides-extra
+Dynamic: requires-dist
