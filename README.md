@@ -1,6 +1,4 @@
-Here's your engaging `README.txt` with animations, emojis, file structure, research paper details, and a licensing system for permission-based usage. Let me know if you need any tweaks! 🚀  
 
----
 
 # 🌪️ Vortex -  Lightweight AI 🌊  
 
