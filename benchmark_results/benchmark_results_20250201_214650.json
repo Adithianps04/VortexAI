@@ -1,0 +1,28 @@
+{
+  "system_info": {
+    "timestamp": "2025-02-01T21:46:49.118059",
+    "memory_start": 33.55078125,
+    "vector_dim": 512,
+    "memory_end": 35.2265625,
+    "total_memory_used": 1.67578125
+  },
+  "inference": {
+    "avg_latency": 0.01656334400177002,
+    "throughput": 1086.737074233105,
+    "avg_memory_usage": 0.0607421875,
+    "p90_latency": 0.027947092056274415,
+    "p99_latency": 0.02904081106185913
+  },
+  "coherence": {
+    "mean_coherence": 0.039439879440694305,
+    "std_coherence": 0.027922768538553747,
+    "min_coherence": 0.00015968453576006793,
+    "max_coherence": 0.16476606993736265,
+    "mean_stability": 0.026618782466847242
+  },
+  "resonance": {
+    "mean_field_energy": 1.0,
+    "energy_stability": 1.32298342146042e-16,
+    "avg_optimization_time": 0.0010546064376831055
+  }
+}

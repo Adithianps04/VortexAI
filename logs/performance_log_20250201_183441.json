@@ -1,0 +1,127 @@
+{
+  "summary": {
+    "batch_processing": {
+      "total_vectors": 480,
+      "total_time": 0.005518198013305664,
+      "avg_vectors_per_second": 86984.91769280622,
+      "avg_batch_size": 53.333333333333336
+    },
+    "learning": {
+      "avg_learning_rate": 0.01,
+      "avg_weight_norm": 7.366847182227859,
+      "avg_score": 0.0002750871828295533
+    },
+    "memory": {
+      "avg_concepts": 100.0,
+      "avg_memory_per_concept": 0.0009765625,
+      "peak_memory": 0.09765625
+    }
+  },
+  "batch_times": {
+    "64": [
+      {
+        "batch_size": 10,
+        "time": 0.00017213821411132812,
+        "vectors_per_second": 10000.0,
+        "avg_score": 0.0031265047242914927
+      },
+      {
+        "batch_size": 50,
+        "time": 0.000152587890625,
+        "vectors_per_second": 50000.0,
+        "avg_score": 0.006390125336076203
+      },
+      {
+        "batch_size": 100,
+        "time": 0.0002815723419189453,
+        "vectors_per_second": 100000.0,
+        "avg_score": 0.00463909348622288
+      }
+    ],
+    "128": [
+      {
+        "batch_size": 10,
+        "time": 0.0001933574676513672,
+        "vectors_per_second": 10000.0,
+        "avg_score": 0.0036730636566742977
+      },
+      {
+        "batch_size": 50,
+        "time": 0.0006537437438964844,
+        "vectors_per_second": 50000.0,
+        "avg_score": 0.0038518398647959338
+      },
+      {
+        "batch_size": 100,
+        "time": 0.0005004405975341797,
+        "vectors_per_second": 100000.0,
+        "avg_score": 0.0046969099623855115
+      }
+    ],
+    "256": [
+      {
+        "batch_size": 10,
+        "time": 0.0005190372467041016,
+        "vectors_per_second": 10000.0,
+        "avg_score": 0.002454216396096976
+      },
+      {
+        "batch_size": 50,
+        "time": 0.0016317367553710938,
+        "vectors_per_second": 30642.19754529515,
+        "avg_score": 0.002516134496996657
+      },
+      {
+        "batch_size": 100,
+        "time": 0.001413583755493164,
+        "vectors_per_second": 70742.18249283184,
+        "avg_score": 0.0029451734802351487
+      }
+    ]
+  },
+  "learning_stats": {
+    "history": [
+      {
+        "learning_rate": 0.01,
+        "weight_norm": 7.366849828674758,
+        "avg_score": -0.0002889059710979702,
+        "timestamp": 1738415081.709261
+      },
+      {
+        "learning_rate": 0.01,
+        "weight_norm": 7.36684322327681,
+        "avg_score": -0.00036278114660850405,
+        "timestamp": 1738415081.709895
+      },
+      {
+        "learning_rate": 0.01,
+        "weight_norm": 7.36685052041349,
+        "avg_score": -0.0002624596836841652,
+        "timestamp": 1738415081.7104816
+      },
+      {
+        "learning_rate": 0.01,
+        "weight_norm": 7.36684590413822,
+        "avg_score": 0.001331377387750545,
+        "timestamp": 1738415081.7110457
+      },
+      {
+        "learning_rate": 0.01,
+        "weight_norm": 7.366846434636018,
+        "avg_score": 0.000958205327787861,
+        "timestamp": 1738415081.7115963
+      }
+    ]
+  },
+  "memory_usage": {
+    "history": [
+      {
+        "total_memory": 0.09765625,
+        "num_concepts": 100,
+        "memory_per_concept": 0.0009765625,
+        "timestamp": 1738415081.708549
+      }
+    ]
+  },
+  "energy_stats": {}
+}

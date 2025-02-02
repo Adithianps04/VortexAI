@@ -1,0 +1,32 @@
+{
+  "Vortex": {
+    "inference": {
+      "avg_latency": 0.011614525318145752,
+      "throughput": 1549.7835259679543,
+      "avg_memory_usage": 0.0765625,
+      "p90_latency": 0.018322157859802245,
+      "p99_latency": 0.018823988437652588
+    },
+    "coherence": {
+      "mean_coherence": 0.040540231140434306,
+      "std_coherence": 0.027800908855447663,
+      "min_coherence": 0.0012258221876327966,
+      "max_coherence": 0.1795557828028014,
+      "mean_stability": 0.026595715474144625
+    },
+    "resonance": {
+      "mean_field_energy": 1.0,
+      "energy_stability": 1.1749496091904414e-16,
+      "avg_optimization_time": 0.0006770443916320801
+    }
+  },
+  "Baseline": {
+    "inference": {
+      "avg_latency": 0.0013100028038024903,
+      "throughput": 13740.428606528287,
+      "avg_memory_usage": 0.001953125,
+      "p90_latency": 0.006324625015258791,
+      "p99_latency": 0.008783073425292966
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "batch_stats": {
+    "total_vectors": 0,
+    "total_time": 0.0,
+    "batch_sizes": [],
+    "vector_dims": [],
+    "processing_times": [],
+    "avg_scores": []
+  },
+  "learning_stats": {
+    "learning_rates": [],
+    "weight_norms": [],
+    "avg_scores": []
+  },
+  "memory_stats": {
+    "total_memory": [],
+    "num_concepts": [],
+    "memory_per_concept": []
+  }
+}
